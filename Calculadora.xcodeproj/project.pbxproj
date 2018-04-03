@@ -14,6 +14,8 @@
 		E02ED66120599DF100A32A47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E02ED65F20599DF100A32A47 /* LaunchScreen.storyboard */; };
 		E02ED66C20599DF200A32A47 /* CalculadoraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02ED66B20599DF200A32A47 /* CalculadoraTests.swift */; };
 		E02ED67720599DF200A32A47 /* CalculadoraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02ED67620599DF200A32A47 /* CalculadoraUITests.swift */; };
+		E03C0975206C1FCC000242EE /* digital-7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E03C0974206C1FCC000242EE /* digital-7.ttf */; };
+		E04C2EDE205C92D600D03488 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04C2EDD205C92D600D03488 /* RoundButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		E02ED67220599DF200A32A47 /* CalculadoraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculadoraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E02ED67620599DF200A32A47 /* CalculadoraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculadoraUITests.swift; sourceTree = "<group>"; };
 		E02ED67820599DF200A32A47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E03C0974206C1FCC000242EE /* digital-7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7.ttf"; sourceTree = "<group>"; };
+		E04C2EDD205C92D600D03488 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +101,14 @@
 		E02ED65520599DF100A32A47 /* Calculadora */ = {
 			isa = PBXGroup;
 			children = (
+				E03C0974206C1FCC000242EE /* digital-7.ttf */,
 				E02ED65620599DF100A32A47 /* AppDelegate.swift */,
 				E02ED65820599DF100A32A47 /* ViewController.swift */,
 				E02ED65A20599DF100A32A47 /* Main.storyboard */,
 				E02ED65D20599DF100A32A47 /* Assets.xcassets */,
 				E02ED65F20599DF100A32A47 /* LaunchScreen.storyboard */,
 				E02ED66220599DF100A32A47 /* Info.plist */,
+				E04C2EDD205C92D600D03488 /* RoundButton.swift */,
 			);
 			path = Calculadora;
 			sourceTree = "<group>";
@@ -235,6 +241,7 @@
 				E02ED66120599DF100A32A47 /* LaunchScreen.storyboard in Resources */,
 				E02ED65E20599DF100A32A47 /* Assets.xcassets in Resources */,
 				E02ED65C20599DF100A32A47 /* Main.storyboard in Resources */,
+				E03C0975206C1FCC000242EE /* digital-7.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E04C2EDE205C92D600D03488 /* RoundButton.swift in Sources */,
 				E02ED65920599DF100A32A47 /* ViewController.swift in Sources */,
 				E02ED65720599DF100A32A47 /* AppDelegate.swift in Sources */,
 			);
@@ -427,6 +435,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LSP4LMWCP5;
 				INFOPLIST_FILE = Calculadora/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dsanabria.Calculadora;
@@ -441,6 +450,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LSP4LMWCP5;
 				INFOPLIST_FILE = Calculadora/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dsanabria.Calculadora;
